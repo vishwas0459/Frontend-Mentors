@@ -89,10 +89,10 @@ h1 {
 /* Mobil breakpoint 375*/
 
 /* Desktop breakpoint 1440px */
-@media (min-width: 970px) {
+@media (min-width: 900px) {
   .container {
     width: 90%;
-    max-width: 970px;
+    max-width: 900px;
   }
   .card-container {
     position: relative;
