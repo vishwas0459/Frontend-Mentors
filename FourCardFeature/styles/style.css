@@ -112,30 +112,39 @@ h1 {
     font-size: 0.75rem;
   }
   .card {
-    width: 30%;
+    width: 15em;
     margin: 0;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     position: absolute;
+    padding: 2em;
   }
   .card-sup {
     position: relative;
     top: 5em;
-    left: 1em;
+    left: 6.3em;
   }
   .card-team {
     position: absolute;
     top: 1em;
-    left: 22em;
+    left: 24em;
   }
 
   .card-karma {
     position: absolute;
-    top: 12em;
-    left: 22em;
+    top: 13em;
+    left: 24em;
   }
   .card-calc {
     position: relative;
-    top: -4em;
-    left: 41em;
+    top: -5.8em;
+    left: 39em;
+  }
+
+  .card img {
+    display: block;
+    width: 3em;
+    position: relative;
+    top: 1em;
+    left: 9em;
   }
 }
