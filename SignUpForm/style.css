@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-image: url(./images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.intro {
+  padding: 10% 5%;
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.intro h1 {
+  padding-top: 2.5em;
+  line-height: 2rem;
+}
+.intro p {
+  margin-top: 0.5em;
+  font-size: 0.7rem;
+  padding: 0 20px;
+}
+
+.signup-form {
+  margin-top: 20px auto;
+  width: 90%;
+}
+
+.btn-trial {
+  display: block;
+  border: none;
+  background-color: hsl(248, 32%, 49%);
+  padding: 10px 50px;
+  color: white;
+  width: 100%;
+  margin: 0 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 20px 40px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.signup-form form .input-group {
+  margin: 0;
+  padding: 0;
+}
+.signup-form form input {
+  width: 85%;
+  margin: 5px 5px;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bolder;
+  border: 0.5px solid hsl(0, 0%, 50%);
+}
+
+.signup-form button {
+  width: 85%;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  padding: 20px;
+  border: none;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.signup-form small {
+  color: grey;
+  font-size: 0.6rem;
+  padding: 0 35px;
+}
+
+.signup-form small .terms {
+  color: hsl(0, 100%, 74%);
+  font-weight: bolder;
+}
+.signup-form div .hint {
+  color: hsl(0, 100%, 74%);
+  font-size: 0.7rem;
+  display: none;
+}
