@@ -113,3 +113,54 @@ body {
   font-size: 0.7rem;
   display: none;
 }
+
+/* Desktop site styles */
+@media (min-width: 768px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/bg-intro-desktop.png);
+  }
+  .intro {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    /* border: 1px solid red; */
+    /* padding-left: 150px; */
+  }
+  .intro h1 {
+    font-size: 3rem;
+    width: 100%;
+    line-height: 3rem;
+    padding: 50px 0px 20px;
+    margin: 30px 100px 0 100px;
+  }
+  .intro p {
+    font-size: 0.9rem;
+    max-width: 100%;
+    margin-left: 100px;
+    /* padding-left: 0;
+    padding-right: 80px; */
+    padding: 0;
+  }
+  .signup-form {
+    width: 100%;
+    text-align: center;
+    margin: auto 150px;
+  }
+  .signup-form form {
+    padding: 40px 0;
+  }
+  .signup-form input {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 300; */
+    padding: 5px;
+  }
+  .btn-trial {
+    font-weight: 300;
+  }
+}
