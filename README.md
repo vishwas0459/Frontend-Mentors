@@ -1,2 +1,2 @@
 # Frontend-Mentors
-Frontend Masters Challenges
+Frontend Mentors Challenges
