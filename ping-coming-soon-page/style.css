@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  padding: 1.5em;
+}
+header img {
+  width: 80px;
+}
+
+.container {
+  width: 100%;
+  min-width: 375px;
+  margin: 0;
+}
+
+.intro {
+  max-width: 100%;
+}
+
+.intro h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+}
+
+.intro .bold {
+  color: black;
+  font-weight: bolder;
+}
+.intro p {
+  margin: 1em 0;
+  font-size: 0.6rem;
+}
+
+form {
+  position: relative;
+}
+form input {
+  border: 1px solid hsl(223, 100%, 88%);
+  padding: 0.6em 1.4em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+form input:active {
+  background-color: transparent;
+}
+
+form .hint {
+  display: none;
+  color: hsl(354, 100%, 66%);
+  font-size: 0.7rem;
+  margin-top: 1.5em;
+  position: absolute;
+  left: 8em;
+  top: 2em;
+}
+form input::placeholder {
+  color: hsl(223, 100%, 88%);
+  font-size: 0.7rem;
+}
+
+form button {
+  display: block;
+  /* margin:1em; */
+  padding: 0.8em 5.5em;
+  margin: 1em auto;
+  border-radius: 25px;
+  border: none;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  box-shadow: 0 5px 10px hsla(223, 87%, 63%, 0.3);
+}
+form button:hover {
+  cursor: pointer;
+}
+
+/* Invalid email */
+form.error .hint {
+  display: block;
+}
+
+form.error input {
+  color: black;
+  border: 1px solid hsla(354, 100%, 66%, 0.5);
+}
+
+form.error input::placeholder {
+  color: black;
+}
+
+form.error button {
+  margin-top: 3em;
+}
+
+.hero-img {
+  margin: 3em auto;
+  max-width: 100%;
+  /*         max-width:375px; */
+}
+.hero-img img {
+  width: 80%;
+  max-width: 100%;
+  margin: 0 autp;
+}
+.social {
+  margin-bottom: 2em;
+}
+.social .icons {
+  margin: 0 0 1em;
+}
+.social i {
+  font-size: 0.8rem;
+  color: hsl(223, 87%, 63%);
+}
+.fa {
+  padding: 0.35em;
+  width: 25px;
+  text-align: center;
+  border: 1px solid hsla(223, 87%, 63%, 0.2);
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  cursor: pointer;
+}
+.social p {
+  font-size: 0.6rem;
+  color: hsl(0, 0%, 59%);
+  padding-bottom: 2em;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .container {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+  form input {
+    display: inline-block;
+    width: 440px;
+    padding: 1em 1.5em;
+  }
+  form button {
+    display: inline-block;
+    width: 200px;
+    padding: 1em;
+  }
+  .hero-img {
+    padding: 0 8px;
+  }
+  form .hint {
+    display: none;
+    color: hsl(354, 100%, 66%);
+    font-size: 0.7rem;
+    margin-top: 1em;
+    position: absolute;
+    left: 3em;
+    top: 5em;
+  }
+}
