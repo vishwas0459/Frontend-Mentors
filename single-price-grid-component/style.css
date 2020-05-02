@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* ### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  /* background-color: aqua; */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 30px;
+  border-radius: 5px;
+  box-shadow: -1px 5px 10px hsl(218, 22%, 67%);
+}
+
+.intro {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid whitesmoke;
+  padding: 30px 25px;
+  text-align: left;
+}
+.intro h1 {
+  color: hsl(179, 62%, 43%);
+}
+.intro .money-back {
+  color: hsl(71, 73%, 54%);
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+.intro .info {
+  color: hsl(218, 22%, 67%);
+}
+
+.subscription {
+  color: white;
+  width: 100%;
+}
+
+.subscription .monthly-sub {
+  padding: 30px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.subscription .monthly-sub .title {
+  font-weight: bold;
+}
+
+.subscription .monthly-sub .dollar {
+  margin: 10px 0;
+}
+.subscription .monthly-sub .dollar span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subscription .monthly-sub .info {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
+
+.subscription .monthly-sub button {
+  margin: 15px auto;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
+  font-family: 'Karla', sans-serif;
+}
+
+.subscription .why-us {
+  padding: 30px 25px;
+  background-color: hsla(179, 62%, 43%, 0.75);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.subscription .why-us .title {
+  font-weight: bolder;
+}
+
+.subscription .why-us .info {
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 200;
+  margin: 10px 0;
+  color: hsl(204, 43%, 93%);
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 12% auto;
+    max-width: 635px;
+    width: 45%;
+  }
+  .intro {
+    padding: 20px 25px 25px;
+  }
+  .intro .info {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .subscription {
+    display: flex;
+  }
+  .subscription .monthly-sub {
+    width: 50%;
+    padding-left: 35px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .subscription .monthly-sub button {
+    margin-top: 35px;
+    padding: 15px;
+    outline: none;
+  }
+  .subscription .why-us {
+    width: 50%;
+    padding-left: 35px;
+    border-bottom-left-radius: 0px;
+  }
+  .subscription .why-us .info {
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+  }
+}
