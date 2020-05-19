@@ -1,0 +1,26 @@
+{
+	"name": "frontend-mentors",
+	"version": "1.0.0",
+	"description": "Frontend mentors UI challenges",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vishwas0459/Frontend-Mentors.git"
+	},
+	"keywords": [
+		"frontend-mentors"
+	],
+	"author": "Vishwas Meshram",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vishwas0459/Frontend-Mentors/issues"
+	},
+	"homepage": "https://github.com/vishwas0459/Frontend-Mentors#readme",
+	"devDependencies": {
+		"stylelint": "^13.5.0",
+		"stylelint-config-standard": "^20.0.0"
+	}
+}
