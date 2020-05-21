@@ -2,6 +2,7 @@
 	"extends": "stylelint-config-standard",
 	"rules": {
 		"number-leading-zero": null,
-		"indentation": null
+		"indentation": null,
+		"rule-empty-line-before": null
 	}
 }
