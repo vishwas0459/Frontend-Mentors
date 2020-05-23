@@ -155,11 +155,15 @@ button:hover {
 
 	.main-content h1 {
 		font-weight: 700;
-		font-size: 2rem;
+		font-size: 2.6rem;
 	}
 
 	.main-content p {
 		line-height: 1.8;
+	}
+
+	.main-content button {
+		font-size: 1.3rem;
 	}
 
 	.social-icons {
@@ -168,8 +172,8 @@ button:hover {
 	}
 
 	.social-icons a {
-		width: 60px;
-		height: 60px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.social-icons i {
