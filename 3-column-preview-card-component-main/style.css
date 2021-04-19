@@ -1,0 +1,120 @@
+:root {
+	--color-primary: hsl(31, 77%, 52%);
+	--color-secondary: hsl(184, 100%, 22%);
+	--color-tertiary: hsl(179, 100%, 13%);
+	--color-text-primary: hsla(0, 0%, 100%, 0.75);
+	--color-text-secondary: hsl(0, 0%, 95%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	background-color: var(--color-text-secondary);
+}
+
+.card-wrapper {
+	border-radius: 0.5rem;
+	overflow: hidden;
+	margin: 9rem auto;
+	max-width: 32.55rem;
+}
+
+.card {
+	padding: 5rem;
+	padding-left: 4rem;
+}
+
+.card__image {
+	width: 6.4rem;
+	height: 4rem;
+	margin-bottom: 3.5rem;
+}
+
+.card__image--primary {
+	background-image: url('./images/icon-sedans.svg');
+}
+.card__image--secondary {
+	background-image: url('./images/icon-suvs.svg');
+}
+.card__image--tertiary {
+	background-image: url('./images/icon-luxury.svg');
+}
+.card__heading {
+	font-family: 'Big Shoulders Display';
+	color: var(--color-text-secondary);
+	font-size: 2.4rem;
+	text-transform: uppercase;
+}
+.card__text {
+	/* font-family: 'Lexend Deca'; */
+	font-size: 1.5rem;
+	color: var(--color-text-primary);
+}
+
+.btn {
+	border: none;
+	padding: 1.5rem 3rem;
+	border-radius: 20rem;
+	margin-top: 3rem;
+	font-family: inherit;
+	cursor: pointer;
+}
+.card--primary {
+	background-color: var(--color-primary);
+}
+.card--secondary {
+	background-color: var(--color-secondary);
+}
+.card--tertiary {
+	background-color: var(--color-tertiary);
+}
+.btn--primary {
+	color: var(--color-primary);
+}
+.btn--secondary {
+	color: var(--color-secondary);
+}
+.btn--tertiary {
+	color: var(--color-tertiary);
+}
+
+@media screen and (min-width: 1024px) {
+	.card-wrapper {
+		display: flex;
+		max-width: 93rem;
+		border-radius: 1rem;
+		max-height: 50rem;
+	}
+	.card {
+		height: 100%;
+		min-width: 31rem;
+	}
+	.card__image {
+		margin-bottom: 4rem;
+	}
+	.card__heading {
+		font-size: 3.2rem;
+		margin-bottom: 3.5rem;
+	}
+	.btn {
+		margin-top: 8rem;
+	}
+
+	.btn:hover {
+		border: 2px solid var(--color-text-secondary);
+		background-color: transparent;
+		color: var(--color-text-secondary);
+	}
+}
