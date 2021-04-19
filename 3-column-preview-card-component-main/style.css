@@ -100,13 +100,14 @@ body {
 	}
 	.card {
 		height: 100%;
+		padding-left: 6.5rem;
 		min-width: 31rem;
 	}
 	.card__image {
-		margin-bottom: 4rem;
+		margin-bottom: 3rem;
 	}
 	.card__heading {
-		font-size: 3.2rem;
+		font-size: 4rem;
 		margin-bottom: 3.5rem;
 	}
 	.btn {
