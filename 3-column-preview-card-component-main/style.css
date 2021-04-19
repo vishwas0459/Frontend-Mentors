@@ -96,6 +96,7 @@ body {
 		max-width: 93rem;
 		border-radius: 1rem;
 		max-height: 50rem;
+		margin: 17rem auto;
 	}
 	.card {
 		height: 100%;
